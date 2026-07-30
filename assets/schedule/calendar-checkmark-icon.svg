@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Schedule">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20242b"/>
+      <stop offset="1" stop-color="#050607"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#64ff3f"/>
+      <stop offset="1" stop-color="#00c93a"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity=".55"/>
+    </filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#23ff55" flood-opacity=".55"/>
+    </filter>
+  </defs>
+  <rect x="10" y="10" width="492" height="492" rx="108" fill="url(#bg)" stroke="#343a44" stroke-width="4"/>
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)">
+    <rect x="102" y="118" width="308" height="286" rx="54" stroke-width="22"/>
+    <path d="M102 202h308" stroke-width="20"/>
+    <path d="M174 91v62M338 91v62" stroke-width="24"/>
+  </g>
+  <g fill="#f5f7f8">
+    <circle cx="174" cy="260" r="13"/><circle cx="240" cy="260" r="13"/><circle cx="306" cy="260" r="13"/>
+    <circle cx="174" cy="320" r="13"/><circle cx="240" cy="320" r="13"/><circle cx="306" cy="320" r="13"/>
+    <circle cx="174" cy="380" r="13"/><circle cx="240" cy="380" r="13"/>
+  </g>
+  <circle cx="372" cy="360" r="70" fill="url(#green)" filter="url(#glow)"/>
+  <path d="M337 360l23 24 47-51" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
